@@ -1,0 +1,13 @@
+In the framework there are two parts Java and resource.
+In the resource part, I added a config folder where I have config.properties file in which I stored information about which browser and url I used.
+The features folder is where I wrote the test case using Gherkin language.
+The other part of the framework is the Java part where I have pages, runners, steps, and utils.
+In the pages folder, that is where I stored the webelements needed for the test case.
+In the runners folder, that is where I would run the test case.
+In the steps, that is where I have the codes needed for the automation.
+In the utils is where I stored Common methods needed to avoid code redundancy
+Config reader is also stored in utils and that is where the code is to read what is written in the config.properties file
+Since this framework has separate folder and files from each other, it is easier to edit if there are any changes in the project.
+To run the project go into src folder > test > java > runners > RunnerClass then click the green play button.
+if the test case passes then it will say on the console that the test passed.
+if the test case fails then it will show on the console the result on why it failed.
